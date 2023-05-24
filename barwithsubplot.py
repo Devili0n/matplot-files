@@ -16,7 +16,7 @@ br2 = [x + barWidth for x in br1]
 br3 = [x + barWidth for x in br2]
  
 # Make the plot
-plt.bar(br1, IT, color ='orange', width = barWidth,
+plt.bar(br1, IT, color ='r', width = barWidth,
         edgecolor ='grey', label ='IT')
 plt.bar(br2, ECE, color ='g', width = barWidth,
         edgecolor ='grey', label ='ECE')
